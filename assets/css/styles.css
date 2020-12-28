@@ -1,0 +1,280 @@
+/* Fonts */
+/* Oswald font */
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&display=swap");
+/* Poppins font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,200&display=swap");
+/* Robot Condenced */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&display=swap");
+/* Nunito */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,300&display=swap");
+/* Raleway */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,300&display=swap");
+/* Ubuntu */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,300&display=swap");
+
+/* Global styles */
+html {
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #eee;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  top: 5.5rem;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Poppins";
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: 700;
+  margin: 1.32rem 0;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin: 1.3rem 0;
+}
+
+h3 {
+  font-weight: bold;
+  margin: 1.3rem 0;
+}
+
+.mobile {
+  display: none;
+}
+
+.color-container,
+.font-container,
+.text-container {
+  background-color: #fff;
+  border: 1px solid darkgray;
+  border-radius: 5px;
+  padding: 0.63rem;
+  margin: 0.63rem auto;
+}
+
+/* Header */
+header {
+  position: fixed;
+  top: 0;
+  border-bottom: 1px solid #31363d;
+  background-color: #31363d;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  z-index: 100;
+}
+
+header .content {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+header .logo {
+  flex: 1;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  padding-left: 2.5rem;
+}
+
+nav a,
+header a {
+  color: #fff;
+  vertical-align: bottom;
+  line-height: 1.6;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+/* Colors Section */
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.color-wrapper {
+  width: 100%;
+}
+
+.color-panel {
+  display: inline-block;
+  width: 32%;
+  text-align: center;
+  margin: 20px auto;
+  min-height: 100px;
+}
+
+.color-panel p {
+  margin: 16px 0;
+}
+
+.tomato {
+  background-color: #ff6347;
+  color: #fff;
+}
+
+.lime {
+  background-color: #00ff00;
+}
+
+.blue {
+  background-color: #ff6347;
+}
+
+.lightblue {
+  background-color: #add8e6;
+}
+
+.cyan {
+  background-color: #00ffff;
+}
+
+.maroon {
+  background-color: #800000;
+  color: #fff;
+}
+
+.olive {
+  background-color: #808000;
+  color: #fff;
+}
+
+.greenYellow {
+  background-color: #adff2f;
+}
+
+.indianRed {
+  background-color: #cd5c5c;
+}
+
+.indigo {
+  background-color: #4b0082;
+  color: #fff;
+}
+
+.lawnGreen {
+  background-color: #7cfc00;
+}
+
+.lightCoral {
+  background-color: #f08080;
+}
+
+.lightSalmon {
+  background-color: #ffa07a;
+}
+
+@media only screen and (max-width: 700px) {
+  .color-panel {
+    width: 100%;
+    text-align: center;
+    min-height: 100px;
+  }
+
+  .color-panel p {
+    margin: 16px 0;
+  }
+}
+
+/* Fonts Section */
+.font-wrapper {
+  width: 100%;
+}
+
+.font-container {
+  margin-bottom: 2rem;
+}
+
+.font-panel {
+  display: inline-block;
+  width: 45%;
+}
+
+.roboto {
+  font-family: "Roboto";
+}
+
+.oswald {
+  font-family: "Oswald";
+}
+
+.poppins {
+  font-family: "Poppins";
+}
+
+.nunito {
+  font-family: "Nunito";
+}
+
+.raleway {
+  font-family: "Raleway";
+}
+
+.ubuntu {
+  font-family: "Ubuntu";
+}
+
+.font-label {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.regular {
+  font-style: normal;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.italic {
+  font-style: italic;
+}
+
+@media only screen and (max-width: 700px) {
+  .font-panel {
+    display: block;
+    width: 100%;
+  }
+}
+
+/* Text Style Section */
+.text {
+  width: 100%;
+}
+
+/* Footer */
+footer {
+  position: relative;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  top: 8rem;
+  background-color: #31363d;
+  padding: 1rem 0;
+}
+
+footer p {
+  text-align: center;
+  color: gray;
+}
